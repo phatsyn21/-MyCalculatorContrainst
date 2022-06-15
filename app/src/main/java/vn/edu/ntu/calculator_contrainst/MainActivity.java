@@ -13,10 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void Cong(View v){
-        EditText et1 =(EditText)findViewById(R.id.editTextNumber);
-        EditText et2 =(EditText)findViewById(R.id.editTextNumber2);
-        EditText et3 =(EditText)findViewById(R.id.editTextNumber3);
+
+    public void Cong(View v) {
+        EditText et1 = (EditText) findViewById(R.id.editTextNumber);
+        EditText et2 = (EditText) findViewById(R.id.editTextNumber2);
+        EditText et3 = (EditText) findViewById(R.id.editTextNumber3);
 
         int n1 = Integer.parseInt(et1.getText().toString());
         int n2 = Integer.parseInt(et2.getText().toString());
@@ -25,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         et3.setText("Tổng là: " + tong);
     }
 
-    public void Tru(View v){
-        EditText et1 =(EditText)findViewById(R.id.editTextNumber);
-        EditText et2 =(EditText)findViewById(R.id.editTextNumber2);
-        EditText et3 =(EditText)findViewById(R.id.editTextNumber3);
+    public void Tru(View v) {
+        EditText et1 = (EditText) findViewById(R.id.editTextNumber);
+        EditText et2 = (EditText) findViewById(R.id.editTextNumber2);
+        EditText et3 = (EditText) findViewById(R.id.editTextNumber3);
 
         int n1 = Integer.parseInt(et1.getText().toString());
         int n2 = Integer.parseInt(et2.getText().toString());
@@ -37,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
         et3.setText("Hiệu là: " + hieu);
     }
 
-    public void Nhan(View v){
-        EditText et1 =(EditText)findViewById(R.id.editTextNumber);
-        EditText et2 =(EditText)findViewById(R.id.editTextNumber2);
-        EditText et3 =(EditText)findViewById(R.id.editTextNumber3);
+    public void Nhan(View v) {
+        EditText et1 = (EditText) findViewById(R.id.editTextNumber);
+        EditText et2 = (EditText) findViewById(R.id.editTextNumber2);
+        EditText et3 = (EditText) findViewById(R.id.editTextNumber3);
 
         int n1 = Integer.parseInt(et1.getText().toString());
         int n2 = Integer.parseInt(et2.getText().toString());
@@ -49,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
         et3.setText("Tích là: " + tich);
     }
 
-    public void Chia(View v){
-        EditText et1 =(EditText)findViewById(R.id.editTextNumber);
-        EditText et2 =(EditText)findViewById(R.id.editTextNumber2);
-        EditText et3 =(EditText)findViewById(R.id.editTextNumber3);
+    public void Chia(View v) {
+        EditText et1 = (EditText) findViewById(R.id.editTextNumber);
+        EditText et2 = (EditText) findViewById(R.id.editTextNumber2);
+        EditText et3 = (EditText) findViewById(R.id.editTextNumber3);
 
         int n1 = Integer.parseInt(et1.getText().toString());
         int n2 = Integer.parseInt(et2.getText().toString());
